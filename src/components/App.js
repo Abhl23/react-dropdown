@@ -1,6 +1,7 @@
 import Dropdown from "./Dropdown";
 
 function App() {
+  // array containing items of the dropdown list
   const items = [
     "Take Care - Drake",
     "Get Rich Or Die Tryin - 50 Cent",

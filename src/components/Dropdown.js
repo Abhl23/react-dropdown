@@ -3,12 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Dropdown({ items }) {
+  // boolean state maintained to show and hide the dropdown list
   const [visible, setVisible] = useState(false);
 
+  // shows the dropdown list
   const showDropdownMenu = () => {
     setVisible(true);
   };
 
+  // hides the dropdown list
   const hideDropdownMenu = () => {
     setVisible(false);
   };
